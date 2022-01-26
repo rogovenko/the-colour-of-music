@@ -90,7 +90,7 @@ export default function ColorMusic() {
             <div className={style.wtfNumber}>
               { result.wtf }
             </div>
-            <div className={style.textText}>WTF! We also counted swear word for no reason!</div>
+            <div className={style.textText}>WTF! We also counted swear words for no reason!</div>
           </div>
         </div>
       )}
