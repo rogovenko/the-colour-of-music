@@ -23,7 +23,7 @@ export default function ColorMusic() {
     <div className={style.mainContainer}>
       <h1>The Colour of Music</h1>
       <div className={style.textIntro}>
-        Find out which colors are most often used in songs of your favourite artists.
+        Find out which colors are most often used in songs of your favorite artists.
       </div>
       <form onSubmit={submitHandler}>
         <input placeholder="Peek your artist!" value={input} onChange={(e) => setInput(e.target.value)} />
