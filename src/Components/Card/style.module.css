@@ -1,0 +1,20 @@
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  border: solid black 1px;
+}
+
+.card :hover {
+  opacity: 70%;
+}
+
+.cardImg {
+ width: 200px;
+}
+
+.cardText{
+  height: 6vh;
+}

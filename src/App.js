@@ -1,9 +1,10 @@
 import './App.css'
+import ColorMusic from './Components/ColorMusic'
 
 function App() {
   return (
-    <div className="App">
-      hello
+    <div>
+      <ColorMusic />
     </div>
   )
 }

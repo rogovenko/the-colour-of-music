@@ -1,0 +1,63 @@
+.mainContainer{
+  border: 1px solid black;
+  width: 40vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.mainContainer h1{
+  font-size: large;
+}
+
+.mainContainer form{
+  margin-bottom: 4vh;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.textIntro {
+  font-size: small;
+  width: 50%;
+  margin-bottom: 2vh;
+  text-align: center;
+}
+
+.wtf{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wtfNumber {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  text-align: center;
+  border: solid 1px black;
+  padding: 2px;
+  font-weight: 700;
+}
+
+.textText {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: x-small;
+  text-align: center;
+}
+
+
+
+
+
+
+

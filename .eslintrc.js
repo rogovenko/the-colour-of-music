@@ -39,5 +39,10 @@ module.exports = {
     'react/jsx-no-constructed-context-values': 0,
     'no-param-reassign': 0,
     'default-param-last': 0,
+    'no-await-in-loop': 0,
+    'eqeqeq': 0,
+    'jsx-a11y/click-events-have-key-events': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
+    'react/no-array-index-key': 0,
   },
 }
