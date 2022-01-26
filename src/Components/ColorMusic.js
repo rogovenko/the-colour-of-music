@@ -15,6 +15,7 @@ export default function ColorMusic() {
     const data = await fetch(`https://api.happi.dev/v1/music?q=${input}&limit=&apikey=${apikey}&type=artist&lyrics=1`, { mode: 'cors' })
     const newData = await data.json()
     setChoice(newData.result)
+    setResult(null)
     setInput('')
   }
 
