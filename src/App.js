@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <ColorMusic />
+      <div>Hello</div>
     </div>
   )
 }
